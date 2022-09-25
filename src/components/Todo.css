@@ -1,0 +1,112 @@
+      
+      body {
+      background: #f2f5fe;
+      }
+
+      .todo-container {
+      box-sizing: border-box; 
+      background: #ffffff;
+      width: 287px;
+      height: auto;
+      border: 2px solid #ECEEF7;
+      box-shadow: 0px 20px 50px rgba(220, 224, 249, 0.5);
+      border-radius: 20px;
+      margin: 10em auto;
+      padding: 20px 10px;
+      color: #13161b;
+      }
+    
+      .header {   
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22.4024px;
+      line-height: 34px;
+      letter-spacing: 0.01em;
+      color: #000000;
+      }
+
+      .task {
+      width: 229px;
+      height: 25px;
+        
+      box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+      border-radius: 17px;
+      background-color: #E0E4EA;
+    
+      padding: 0.5em;
+      margin-left: 0.5em;
+      margin-right: 0.5em;;
+      margin-bottom: 5px;
+      margin-top: 25px;
+
+    
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      }
+    
+      .task button {
+       background-color: #f5554b;
+       border-radius: 100%;
+       margin: 0px 0px;
+       height: 25px;
+       width: 25px;
+       border: none;
+       cursor: pointer;
+       color: white;
+       float: right;
+       }
+
+       .task button:hover {
+       background-color: #CE4432;
+       }
+
+       .header {
+       margin: 0.5em;
+       font-size: 2em;
+       text-align: center;
+       }
+    
+       .create-task input[type=text] {
+       margin: 2.5em 2em;
+       width: 80%;
+       outline: none;
+       border: none;
+       padding: 0.7em;
+       }
+
+      input {
+        background-color: #e0e3ec;
+       }
+
+      .close {
+        height: 20px;
+        width: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        }
+      
+      .input-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    .input-container input { 
+        border:0;
+        background: #E0E4EA;
+        box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+        border-radius: 17px;
+        width:100%;
+        padding:8px 0 5px 0;
+        font-size:16px;
+        color:#000000;
+      }
+
+      .input-container input:focus { 
+       border:none;	
+       outline:none;
+       border-bottom:2px solid #67CB65;	
+      }
+      
