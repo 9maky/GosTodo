@@ -1,7 +1,7 @@
 // Ovo je import 
 
 import React, { useState } from 'react';
-import './Todo.css';
+import './Todo.sass'; 
 
 export function CreateTask({ addTask }:any):JSX.Element {
     const [value, setValue] = useState("");

@@ -1,7 +1,7 @@
 //ovo su sami taskovi
 
 import React, { useState } from 'react';
-import './Todo.css';
+import './Todo.sass';
 import { CreateTask } from './CreateTask';
 import { Task } from './types/TaskTypes';
 import { Todo1 } from './Task';

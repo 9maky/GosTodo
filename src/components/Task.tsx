@@ -1,7 +1,7 @@
 //ovo je close button
 
 import React from 'react';
-import './Todo.css';
+import './Todo.sass'; 
 import { Task_prop } from './types/TaskTypes';
 export function Todo1({ task, index, removeTask }:Task_prop){
     return (
